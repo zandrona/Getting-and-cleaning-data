@@ -44,8 +44,8 @@ extract$activity <- factor(extract$id, levels=c(1,2,3,4,5,6), labels=activityLab
 #5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 # make group elements
-groups <- list(activity = extract$activity,
-                         subject = extract$id)
+groups <- list(activity = extract$subjects,
+                         subject = extract$activity)
 
 # count columns
 i<- ncol(extract)
