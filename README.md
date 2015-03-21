@@ -10,3 +10,4 @@ The cleanup script (run_analysis.R) does the following:
 
 The resulting tidy dataset is in this repository in tidydata.txt. It contains one row for each subject/activity pair and columns for subject, activity, and each feature that was a mean or standard deviation from the original dataset.
 
+codebook.md describes the specific details of variables, values, and units in the tidy data set. 
