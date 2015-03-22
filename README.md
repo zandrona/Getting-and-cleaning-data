@@ -9,7 +9,7 @@ The script (run_analysis.R) does the following:
     
 The script performs operations to import, clean, and transform the data set. These steps are also indicated in comments throughout the .R file.
 
-The resulting tidy dataset (tidydata.txt) has 180 rows x 68 columnsy in tidydata.txt. It contains one row for each subject/activity pair and columns for subject, activity, and each feature that was a mean or standard deviation from the original dataset.
+The resulting tidy dataset (tidydata.txt) has 180 rows x 81 columnsy in tidydata.txt. It contains one row for each subject/activity pair and columns for subject, activity, and each feature that was a mean or standard deviation from the original dataset.
 The tidydata is a  subset of the data provided in the Human Activity Recognition Using Smartphones Data Set. The source data is available from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 Here are the data for the project:
